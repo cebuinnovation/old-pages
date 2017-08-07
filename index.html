@@ -21,6 +21,7 @@
 			.reveal section img {
 				border: none;
 				box-shadow: none;
+				background: none;
 			}
 
 			.reveal section p {
@@ -40,13 +41,13 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-background-image="images/background.png">
+				<section>
 					<img src="images/cag.png" width="auto" height="200">
 					<p>
 						An organization that Brings together a community of Cebuano Animators through collaboration with Government Agencies and benchmarking to Local and International organizations to develop and nurture their full potential and capacities...
 					</p>
 				</section>
-				<section data-background-image="images/background.png">
+				<section>
 					<img src="images/cebu .net user group.png" width="auto" height="200">
 					<p>
 						CDNUG (Cebu Dot Net User Group) is an online community of .net users from Cebu and its nearby provinces for IT students, developers &amp; tech-lovers.
@@ -56,7 +57,7 @@
                     	The sole mission of CDNUG is to spread technical knowledge and leverage knowledge sharing amongst peers through various events &amp; regular meet-ups.
                     </p>
 				</section>
-				<section data-background-image="images/background.png">
+				<section>
 					<img src="images/iot cebu.png" width="auto" height="200">
 					<p>
 						Internet of Things Community in Cebu is a grassroots community of tinkerers, hobbyists, enthusiasts, designers, startup founders, engineers, and professionals who love to think, play, work.
@@ -66,13 +67,13 @@
                     	We talk about Rasbperry Pi, Arduinos, MQTT, Bluetooth technology and current trends in the IoT field.
                     </p>
 				</section>
-				<section data-background-image="images/background.png">
+				<section>
 					<img src="images/cebuxd.png" width="auto" height="200">
 					<p>
 						CebUxD is a non-profit volunteer-driven organization and advocates the importance of Design Thinking and Human-Centered Design to be applied in various working methodologies. The organization aims to help User Experience Designers and other design enthusiasts in and around the Cebu area to connect with each other to be able to form a community of support to those new to the industry or those looking to apply UX practices to their respective workplaces.
 					</p>
 				</section>
-				<section data-background-image="images/background.png">
+				<section>
 					<img src="images/pizzapy.png" width="auto" height="200">
 					<p>PizzaPy is a volunteer-run group of of Cebu Pythonistas: developers, testers, or individuals into the use of the Python programming language. We welcome any enthusiast regardless of race, gender and even skill level.
 
@@ -80,7 +81,7 @@
 
                     <p>https://www.meetup.com/PizzaPy-PH/</p>
 				</section>
-				<section data-background-image="images/background.png">
+				<section>
 					<img src="images/dsbd.png" width="auto" height="200">
 
                     <p>DataScience &amp; BigData Community in Cebu is a community of professionals, educators, students and enthusiasts who worked or interested with BigData, DataScience, Data Engineering, Data Analytics, Machine Learning, Hadoop , Apache Spark and Data Visualization.</p>
@@ -103,7 +104,21 @@
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
+				],
+				parallaxBackgroundImage: 'images/background.png', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
+
+				// Parallax background size
+				parallaxBackgroundSize: '2048px 1151px', // CSS syntax, e.g. "2100px 900px" - currently only pixels are supported (don't use % or auto)
+
+				// Number of pixels to move the parallax background per slide
+				// - Calculated automatically unless specified
+				// - Set to 0 to disable movement along an axis
+				// parallaxBackgroundHorizontal: 200,
+				parallaxBackgroundVertical: 100,
+				history: false,
+				progress: true,
+				transition: 'convex',
+				transitionSpeed: 'fast'
 			});
 		</script>
 	</body>
