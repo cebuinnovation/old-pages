@@ -49,7 +49,7 @@ Contributors
 
 Thanks to the following people who have submitted major pull requests:
 
-- [@xtrycatchx](https://github.com/xtrycatchx
+- [@xtrycatchx](https://github.com/xtrycatchx)
 
 Also, thanks to [Sauce Labs](http://saucelabs.com) for sponsoring the development of the responsive styles.
 
