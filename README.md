@@ -5,7 +5,7 @@
 
 <p align="center">Repository for the Cebu Innovation Network website.</p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/cebuinnovation/cebuinnovation.github.io/master/images/screenshot.png" width=700 alt="Screenshot of CIN website"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/xtrycatchx/cebuinnovation.github.io/repo-improvements/images/screenshot.png" width=700 alt="Screenshot of CIN website"></p>
 
 <p align="center"><em>Maintains the static source code for the CIN website. Check it out at <a href="https://cebuinnovation.github.io/">cebuinnovation.github.io/</a>.</em></p>
 
