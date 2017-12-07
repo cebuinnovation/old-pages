@@ -215,6 +215,11 @@
 			</div>
 		</div>
 
+		<div id="disp"><canvas id="comp"></canvas></div>
+		<video id="video" autoplay width="300" style="display:none"></video>
+		<canvas id="canvas" style="width:300px;display:none;"></canvas>
+		<script src="js/gesture.js"></script>
+
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
 
@@ -229,7 +234,7 @@
 					{ src: 'plugin/notes/notes.js', async: true },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
 				],
-				autoSlide: 8000,
+				// autoSlide: 8000,
 				parallaxBackgroundImage: 'images/background.png', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
 
 				// Parallax background size
@@ -248,5 +253,7 @@
 				loop: true,
 			});
 		</script>
+
+		<script src="js/gesture.js"></script>
 	</body>
 </html>
