@@ -47,11 +47,7 @@ Need Help? Found a bug?
 Contributors
 --------------------
 
-Thanks to the following people who have submitted major pull requests:
-
-- [@xtrycatchx](https://github.com/xtrycatchx)
-
-Also, thanks to [Sauce Labs](http://saucelabs.com) for sponsoring the development of the responsive styles.
+Thanks to the contributors. Kindly read the commits to see who contributed. Thank you very much.
 
 Social Links
 --------------------
